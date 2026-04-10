@@ -1,0 +1,28 @@
+<div class="min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-slate-800 text-slate-100">
+  <div class="mx-auto flex min-h-screen max-w-5xl items-center justify-center px-6 py-12">
+    <div
+      class="w-full max-w-md rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl backdrop-blur"
+    >
+      <div class="space-y-3">
+        <p class="text-xs uppercase tracking-[0.4em] text-slate-400">Welcome</p>
+        <h1 class="text-3xl font-semibold leading-tight text-white">Continue anonymously</h1>
+        <p class="text-sm text-slate-300">
+          No account needed. A single click creates a temporary session.
+        </p>
+      </div>
+
+      <div class="mt-8">
+        <button
+          type="button"
+          class="cursor-pointer group flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-400 px-5 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-emerald-400/30 transition hover:-translate-y-0.5 hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+          (click)="onAnonymousLogin()"
+        >
+          Anonymous login
+          <span class="transition group-hover:translate-x-0.5">→</span>
+        </button>
+      </div>
+
+      <div class="mt-6 text-xs text-slate-400">Only anonymous login is available for this app.</div>
+    </div>
+  </div>
+</div>
