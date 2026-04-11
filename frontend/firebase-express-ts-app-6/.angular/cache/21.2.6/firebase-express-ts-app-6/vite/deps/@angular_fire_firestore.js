@@ -1,45 +1,4 @@
 import {
-  AppCheckInstances,
-  AuthInstances
-} from "./chunk-5GLLMNHV.js";
-import "./chunk-DCV57PLD.js";
-import {
-  FirebaseApp,
-  FirebaseApps,
-  VERSION,
-  ɵAngularFireSchedulers,
-  ɵgetAllInstancesOf,
-  ɵgetDefaultInstanceOf,
-  ɵzoneWrap
-} from "./chunk-6JMXSE3H.js";
-import "./chunk-SDF7BVYC.js";
-import "./chunk-SFM6DXUS.js";
-import {
-  InjectionToken,
-  Injector,
-  NgModule,
-  NgZone,
-  Optional,
-  makeEnvironmentProviders,
-  setClassMetadata,
-  ɵɵdefineInjector,
-  ɵɵdefineNgModule
-} from "./chunk-F5NGALBH.js";
-import {
-  Observable,
-  concatMap,
-  distinct,
-  distinctUntilChanged,
-  filter,
-  from,
-  map,
-  pairwise,
-  pipe,
-  scan,
-  startWith,
-  timer
-} from "./chunk-RSS3ODKE.js";
-import {
   AbstractUserDataWriter,
   AggregateField,
   AggregateQuerySnapshot,
@@ -160,8 +119,49 @@ import {
   writeBatch
 } from "./chunk-ZHG7OD4X.js";
 import {
+  AppCheckInstances,
+  AuthInstances
+} from "./chunk-ZOZCB3LA.js";
+import "./chunk-DCV57PLD.js";
+import {
+  FirebaseApp,
+  FirebaseApps,
+  VERSION,
+  ɵAngularFireSchedulers,
+  ɵgetAllInstancesOf,
+  ɵgetDefaultInstanceOf,
+  ɵzoneWrap
+} from "./chunk-RT2ZAQIJ.js";
+import "./chunk-WJOA7OLP.js";
+import {
+  InjectionToken,
+  Injector,
+  NgModule,
+  NgZone,
+  Optional,
+  makeEnvironmentProviders,
+  setClassMetadata,
+  ɵɵdefineInjector,
+  ɵɵdefineNgModule
+} from "./chunk-F5NGALBH.js";
+import "./chunk-SDF7BVYC.js";
+import {
   registerVersion
 } from "./chunk-ORL6EVG3.js";
+import {
+  Observable,
+  concatMap,
+  distinct,
+  distinctUntilChanged,
+  filter,
+  from,
+  map,
+  pairwise,
+  pipe,
+  scan,
+  startWith,
+  timer
+} from "./chunk-RSS3ODKE.js";
 import "./chunk-GOMI4DH3.js";
 
 // node_modules/rxfire/firestore/index.esm.js

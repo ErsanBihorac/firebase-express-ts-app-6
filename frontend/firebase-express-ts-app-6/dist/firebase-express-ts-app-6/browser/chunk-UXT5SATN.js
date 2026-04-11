@@ -1,0 +1,1 @@
+import{Na as a,Oa as i,Ta as n,ya as t}from"./chunk-GYKPF4YV.js";var s=class r{static \u0275fac=function(e){return new(e||r)};static \u0275cmp=t({type:r,selectors:[["app-user-library"]],decls:2,vars:0,template:function(e,l){e&1&&(a(0,"p"),n(1,"user-library works!"),i())},encapsulation:2})};export{s as UserLibrary};
